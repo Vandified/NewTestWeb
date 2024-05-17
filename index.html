@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Vandified X Ajas</title>
+    <!--link rel="stylesheet" type="text/css" href="style.css"-->
     <link rel="icon" href="Images/favicon.ico" type="image/ico">
     <script>
         function loadStylesheet(filename) {
@@ -23,37 +24,43 @@
                 loadStylesheet("Styles/Desktop.css");
             }
         }
-
+        
         window.onload = detectDeviceAndLoadCSS;
     </script>
 </head>
-<body background="Images/background.jpg">
+<body background="Images/backgro">
     <header>
         <h1 class="typed">Hi, I Am Ajas Also Known As Vandified</h1>
     </header>
     <main>
         <div>
-            <h3>I'm <span class="typing"></span></h3>
-            <h4 class="test">Welcome To My Server</h4>
+            <h2 style="color: orange;">About Me</h2>
+            <h3 style="color: green;"> Im  <span class="typing" ></span> </h3>
+          <h4 class="test">Welcome To My Server</h4>
         </div>
     </main>
 
-    <div class="container">
-        <button class="btn btn1" onclick="redirectToURL('https://t.me/ajasashraf')">Telegram</button>
-        <button class="btn btn2" onclick="redirectToURL('tel:+919567688192')">Contact</button>
-        <button class="btn btn3" onclick="redirectToURL('https://discord.gg/vrxpP79TpA')">Elite Discord</button>
-        <button class="btn btn4" onclick="redirectToURL('https://www.instagram.com/vandi_fied_1052?igsh=ZGUzMzM3NWJiOQ==')">Instagram</button>
-    </div>
-  
+    <footer>
+        <p id="footer" style="color: blue;">&copy; 2024 Vandified</p>
+    </footer>
+  <div class="container">
+  <button class="btn btn1" onclick="redirectToURL('https://t.me/ajasashraf')">Telegram</button>
+  <button class="btn btn2" onclick="redirectToURL('tel:+919567688192')">Contact</button>
+  <button class="btn btn3" onclick="redirectToURL('https://discord.gg/vrxpP79TpA')">Elite Discord</button>
+  <button class="btn btn4" onclick="redirectToURL('https://www.instagram.com/vandi_fied_1052?igsh=ZGUzMzM3NWJiOQ==')">Instagram</button>
+</div>
     <script src="script.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".typing", {
-            strings: [" Samp Developer", " Discord Developer"],
-            typeSpeed: 50,
-            backSpeed: 150,
-            loop: true,
-        });
-    </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+  var typed = new Typed(".typing",{
+    strings: ["Samp Developer", "Discord Developer"],
+      typeSpeed: 50,
+      backSpeed: 150,
+      looped: true,
+  })
+  </script>
+    <!--script>
+        window.onload = loadCSS;
+    </script-->
 </body>
 </html>
