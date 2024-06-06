@@ -3,7 +3,7 @@
     background-size: 110%;
 }*/
 body {
-  background-size: 1000px 1400px;
+  background-size: cover;
   background-position: center;
 }
 /* Center align the header and footer text 
